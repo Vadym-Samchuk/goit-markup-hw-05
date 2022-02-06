@@ -557,9 +557,6 @@ body {
 .client-list .item {
     width: 170px;
     height: 92px;
-
-    border: 1px solid var(--third-border-color);
-    border-radius: 4px;
 }
 
 .client-list .item + .item {
@@ -567,6 +564,9 @@ body {
 }
 
 .client-list .client-link {
+    border: 1px solid var(--third-border-color);
+    border-radius: 4px;
+
     transition: border var(--transition-duration) var(--timing-function),
         fill var(--transition-duration) var(--timing-function);
 }
